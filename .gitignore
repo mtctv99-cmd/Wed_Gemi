@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+.venv
+venv/
+cookies/
+config.json
+cookie.txt
+cookie.json
+.env
+.idea
+*.swp

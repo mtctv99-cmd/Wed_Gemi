@@ -1,0 +1,11 @@
+services:
+  gemnix-api:
+    build: .
+    container_name: gemnix-api
+    network_mode: host
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./config.json:/app/config.json
+      - ./cookies:/app/cookies
+    restart: unless-stopped
